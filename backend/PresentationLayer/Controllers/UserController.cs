@@ -17,33 +17,50 @@ namespace PresentationLayer.Controllers
 
 
         [HttpPost("SignUp")]
-        public async Task<ActionResult> SignUpAsync(string name, string email, string password)
+        public async Task<ActionResult> SignUpAsync(SignUpRequestDTO signRequest)
         {
             try
             {
-                await _userService.SignUpAsync(name, email, password);
+                await _userService.SignUpAsync(signRequest.Name, signRequest.Email, signRequest.Password);
 
-                return Ok();
+                return Ok(
+                    new{
+                        Status = true,
+                        Message = "Sign up successful"
+                    }
+                );
             }
             catch (Exception ex)
             {
-                return BadRequest(ex.Message);
+                return BadRequest(new
+                {
+                    Status = false,
+                    Message = ex.Message
+                });
             }
         }
 
-        [HttpGet("SignIn")]
-        public async Task<ActionResult<string>> SignInAsync(string email, string password)
+        [HttpPost("SignIn")]
+        public async Task<ActionResult> SignInAsync(UserDTO userRequest)
         {
             try
             {
-                var token = await _userService.SignInAsync(email, password);
+                var token = await _userService.SignInAsync(userRequest.Email, userRequest.Password);
 
-                return token;
-
+                return Ok(new
+                {
+                    Status = true,
+                    Message = "Sign up successful",
+                    Token = token
+                });
             }
             catch (Exception ex)
             {
-                return BadRequest(ex.Message);
+                return BadRequest(new
+                {
+                    Status = false,
+                    Message = ex.Message
+                });
             }
         }
     }

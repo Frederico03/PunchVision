@@ -26,3 +26,18 @@ C:\Users\leona\Desktop\backend\DataAcessLayer\obj\Debug\net8.0\refint\DataAcessL
 C:\Users\leona\Desktop\backend\DataAcessLayer\obj\Debug\net8.0\DataAcessLayer.pdb
 C:\Users\leona\Desktop\backend\DataAcessLayer\obj\Debug\net8.0\DataAcessLayer.genruntimeconfig.cache
 C:\Users\leona\Desktop\backend\DataAcessLayer\obj\Debug\net8.0\ref\DataAcessLayer.dll
+C:\Users\Frederico Garcêz\Documents\UFG\PunchVision\web\backend\DataAcessLayer\bin\Debug\net8.0\DataAcessLayer.deps.json
+C:\Users\Frederico Garcêz\Documents\UFG\PunchVision\web\backend\DataAcessLayer\bin\Debug\net8.0\DataAcessLayer.runtimeconfig.json
+C:\Users\Frederico Garcêz\Documents\UFG\PunchVision\web\backend\DataAcessLayer\bin\Debug\net8.0\DataAcessLayer.dll
+C:\Users\Frederico Garcêz\Documents\UFG\PunchVision\web\backend\DataAcessLayer\bin\Debug\net8.0\DataAcessLayer.pdb
+C:\Users\Frederico Garcêz\Documents\UFG\PunchVision\web\backend\DataAcessLayer\obj\Debug\net8.0\DataAcessLayer.csproj.AssemblyReference.cache
+C:\Users\Frederico Garcêz\Documents\UFG\PunchVision\web\backend\DataAcessLayer\obj\Debug\net8.0\DataAcessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Frederico Garcêz\Documents\UFG\PunchVision\web\backend\DataAcessLayer\obj\Debug\net8.0\DataAcessLayer.AssemblyInfoInputs.cache
+C:\Users\Frederico Garcêz\Documents\UFG\PunchVision\web\backend\DataAcessLayer\obj\Debug\net8.0\DataAcessLayer.AssemblyInfo.cs
+C:\Users\Frederico Garcêz\Documents\UFG\PunchVision\web\backend\DataAcessLayer\obj\Debug\net8.0\DataAcessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Frederico Garcêz\Documents\UFG\PunchVision\web\backend\DataAcessLayer\obj\Debug\net8.0\DataAcessLayer.sourcelink.json
+C:\Users\Frederico Garcêz\Documents\UFG\PunchVision\web\backend\DataAcessLayer\obj\Debug\net8.0\DataAcessLayer.dll
+C:\Users\Frederico Garcêz\Documents\UFG\PunchVision\web\backend\DataAcessLayer\obj\Debug\net8.0\refint\DataAcessLayer.dll
+C:\Users\Frederico Garcêz\Documents\UFG\PunchVision\web\backend\DataAcessLayer\obj\Debug\net8.0\DataAcessLayer.pdb
+C:\Users\Frederico Garcêz\Documents\UFG\PunchVision\web\backend\DataAcessLayer\obj\Debug\net8.0\DataAcessLayer.genruntimeconfig.cache
+C:\Users\Frederico Garcêz\Documents\UFG\PunchVision\web\backend\DataAcessLayer\obj\Debug\net8.0\ref\DataAcessLayer.dll

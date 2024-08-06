@@ -4,6 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import "../assets/css/cadastro.css";
 import gloves from "../assets/img/gloves.png";
 import axios from 'axios';
+import { cadastroRoute } from 'API/api';
 
 function Cadastro() {
   const navigate = useNavigate();
@@ -16,18 +17,23 @@ function Cadastro() {
   } = useForm();
 
   const onSubmit = async (req) => {
-    console.log(req);
+
     const { password, user, email } = req
-    const { data } = await axios.post(cadastroRoute, {
-      user,
-      password,
-      email
-    })
-    if (data.status === false)
-      alert(data.message)
-    if (data.status === true) {
-      localStorage.setItem('punch-vison-user', JSON.stringify(data.token))
-      navigate("/");
+    try {
+      const { data } = await axios.post(cadastroRoute, {
+        name: user,
+        password: password,
+        email: email
+      })
+
+      console.log(data)
+      if (data.status === false)
+        alert(data.message)
+      if (data.status === true) {
+        navigate("/login");
+      }
+    } catch (error) {
+
     }
   };
 

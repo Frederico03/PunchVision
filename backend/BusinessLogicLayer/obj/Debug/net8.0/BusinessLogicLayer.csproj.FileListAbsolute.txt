@@ -32,3 +32,21 @@ C:\Users\leona\Desktop\backend\BusinessLogicLayer\obj\Debug\net8.0\refint\Busine
 C:\Users\leona\Desktop\backend\BusinessLogicLayer\obj\Debug\net8.0\BusinessLogicLayer.pdb
 C:\Users\leona\Desktop\backend\BusinessLogicLayer\obj\Debug\net8.0\BusinessLogicLayer.genruntimeconfig.cache
 C:\Users\leona\Desktop\backend\BusinessLogicLayer\obj\Debug\net8.0\ref\BusinessLogicLayer.dll
+C:\Users\Frederico Garcêz\Documents\UFG\PunchVision\web\backend\BusinessLogicLayer\bin\Debug\net8.0\BusinessLogicLayer.deps.json
+C:\Users\Frederico Garcêz\Documents\UFG\PunchVision\web\backend\BusinessLogicLayer\bin\Debug\net8.0\BusinessLogicLayer.runtimeconfig.json
+C:\Users\Frederico Garcêz\Documents\UFG\PunchVision\web\backend\BusinessLogicLayer\bin\Debug\net8.0\BusinessLogicLayer.dll
+C:\Users\Frederico Garcêz\Documents\UFG\PunchVision\web\backend\BusinessLogicLayer\bin\Debug\net8.0\BusinessLogicLayer.pdb
+C:\Users\Frederico Garcêz\Documents\UFG\PunchVision\web\backend\BusinessLogicLayer\bin\Debug\net8.0\DataAcessLayer.dll
+C:\Users\Frederico Garcêz\Documents\UFG\PunchVision\web\backend\BusinessLogicLayer\bin\Debug\net8.0\DataAcessLayer.pdb
+C:\Users\Frederico Garcêz\Documents\UFG\PunchVision\web\backend\BusinessLogicLayer\obj\Debug\net8.0\BusinessLogicLayer.csproj.AssemblyReference.cache
+C:\Users\Frederico Garcêz\Documents\UFG\PunchVision\web\backend\BusinessLogicLayer\obj\Debug\net8.0\BusinessLogicLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Frederico Garcêz\Documents\UFG\PunchVision\web\backend\BusinessLogicLayer\obj\Debug\net8.0\BusinessLogicLayer.AssemblyInfoInputs.cache
+C:\Users\Frederico Garcêz\Documents\UFG\PunchVision\web\backend\BusinessLogicLayer\obj\Debug\net8.0\BusinessLogicLayer.AssemblyInfo.cs
+C:\Users\Frederico Garcêz\Documents\UFG\PunchVision\web\backend\BusinessLogicLayer\obj\Debug\net8.0\BusinessLogicLayer.csproj.CoreCompileInputs.cache
+C:\Users\Frederico Garcêz\Documents\UFG\PunchVision\web\backend\BusinessLogicLayer\obj\Debug\net8.0\BusinessLogicLayer.sourcelink.json
+C:\Users\Frederico Garcêz\Documents\UFG\PunchVision\web\backend\BusinessLogicLayer\obj\Debug\net8.0\Business.450209FB.Up2Date
+C:\Users\Frederico Garcêz\Documents\UFG\PunchVision\web\backend\BusinessLogicLayer\obj\Debug\net8.0\BusinessLogicLayer.dll
+C:\Users\Frederico Garcêz\Documents\UFG\PunchVision\web\backend\BusinessLogicLayer\obj\Debug\net8.0\refint\BusinessLogicLayer.dll
+C:\Users\Frederico Garcêz\Documents\UFG\PunchVision\web\backend\BusinessLogicLayer\obj\Debug\net8.0\BusinessLogicLayer.pdb
+C:\Users\Frederico Garcêz\Documents\UFG\PunchVision\web\backend\BusinessLogicLayer\obj\Debug\net8.0\BusinessLogicLayer.genruntimeconfig.cache
+C:\Users\Frederico Garcêz\Documents\UFG\PunchVision\web\backend\BusinessLogicLayer\obj\Debug\net8.0\ref\BusinessLogicLayer.dll

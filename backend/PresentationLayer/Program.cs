@@ -60,7 +60,7 @@ builder.Services.AddSwaggerGen(c =>
 {
     c.SwaggerDoc("v1", new OpenApiInfo { Title = "Punch Vision Api", Version = "v1" });
 
-    // Adicionar suporte à autenticação JWT
+    // Adicionar suporte ï¿½ autenticaï¿½ï¿½o JWT
     c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
     {
         Name = "Authorization",
@@ -87,7 +87,7 @@ builder.Services.AddSwaggerGen(c =>
         });
 });
 
-// Obtendo a string de conexão do arquivo de configuração
+// Obtendo a string de conexï¿½o do arquivo de configuraï¿½ï¿½o
 var connectionString = builder.Configuration.GetConnectionString("AppDbConnectionString");
 
 // Configurando o DbContext para usar MySQL
@@ -108,6 +108,8 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
+
+app.UseCors("AllowAll");
 
 app.MapControllers();
 

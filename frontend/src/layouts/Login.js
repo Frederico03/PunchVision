@@ -1,53 +1,55 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
+import { useForm } from "react-hook-form";
 import axios from 'axios';
 import gloves from "../assets/img/gloves.png";
+import { loginRoute } from 'API/api';
 import "../assets/css/login.css";
 
 function Login() {
   const navigate = useNavigate();
 
+  const {
+    register,
+    handleSubmit,
+    watch,
+    formState: { errors },
+  } = useForm();
+
   useEffect(() => {
     if (localStorage.getItem('punch-vison-user')) {
-      navigate("/");
+      navigate("/login");
     }
   }, [])
 
 
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    const formData = new FormData(e.target);
-    const obj = {
-      username: formData.get("username") ?? "",
-      password: formData.get("password") ?? "",
-    };
-    if (handleValidation(obj)) {
-      navigate("/admin/mainView")
-
-      // const { password, username } = obj;
-      // const { data } = await axios.post(loginRoute, {
-      //   username,
-      //   password
-      // });
-      // if (data.status === false)
-      //   alert(data.message)
-      // if (data.status === true) {
-      //   localStorage.setItem('punch-vison-user', JSON.stringify(data.user))
-      //   navigate("/");
-      // }
+  const onSubmit = async (req) => {
+    if (handleValidation(req)) {
+      const { password, email } = req
+      const { data } = await axios.post(loginRoute, {
+        email,
+        password
+      });
+      if (data.status === false)
+        alert(data.message)
+      if (data.status === true) {
+        localStorage.setItem('punch-vison-user', JSON.stringify(data.user))
+        localStorage.setItem('punch-vison-token', JSON.stringify(data.token))
+        navigate("/admin/mainView")
+      }
     }
   }
 
-  const handleValidation = (obj) => {
-    const { password, username } = obj
+  const handleValidation = (req) => {
+    const { password, email } = req
     if (password.length === ("" || 0)) {
       alert(
-        "Nome e senha são obrigatórios."
+        "Email e senha são obrigatórios."
       );
       return false
-    } else if (username.length === ("" || 0)) {
+    } else if (email.length === ("" || 0)) {
       alert(
-        "Nome e senha são obrigatórios."
+        "Email e senha são obrigatórios."
       );
       return false
     }
@@ -63,10 +65,30 @@ function Login() {
             <h1>Entre na sua Conta</h1>
           </div>
           <hr />
-          <form onSubmit={handleSubmit} className='form-custom'>
-            <div className='col-md-8'>
-              <input placeholder="Usuário" name="username" className='form-control custom-input' type='text' aria-label="Usuário" />
-              <input placeholder="Senha" name="password" className='form-control custom-input' type='password' aria-label="Senha" />
+          <form onSubmit={handleSubmit(onSubmit)} className='form-custom'>
+            <div>
+              <input
+                placeholder="Email"
+                className='form-control custom-input'
+                type='email'
+                aria-label="Email"
+                {...register("email", {
+                  required: "Email é obrigatório",
+                  pattern: {
+                    value: /\S+@\S+\.\S+/,
+                    message: "Formato de email inválido"
+                  }
+                })}
+              />
+              {errors.email && <p role="alert">{errors.email.message}</p>}
+              <input
+                placeholder="Senha"
+                className='form-control custom-input'
+                type='password'
+                aria-label="Senha"
+                {...register("password", { required: true, minLength: 6 })}
+              />
+              {errors.password && <p role="alert">Senha é obrigatória e deve ter pelo menos 6 caracteres.</p>}
             </div>
             <span className='login-span'>esqueceu a senha?</span>
             <button type="submit" className="btn btn-primary login-button">Submit</button>
