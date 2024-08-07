@@ -50,8 +50,8 @@ function Cadastro() {
           <img src={gloves} alt='blue glove' className='img-cadastro' />
         </div>
       </div>
-      <div className='content'>
-        <form className='form' onSubmit={handleSubmit(onSubmit)}>
+      <div className='right-content'>
+        <form className='custom-form' onSubmit={handleSubmit(onSubmit)}>
           <div className='title-register'>
             <h1>Crie Sua Conta</h1>
           </div>

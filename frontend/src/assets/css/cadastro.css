@@ -1,4 +1,4 @@
-.content {
+.right-content {
   overflow: hidden;
   width: 60%;
   height: 100vh;
@@ -7,7 +7,7 @@
   right: 0;
 }
 
-.form {
+.custom-form {
   display: flex;
   flex-direction: column;
   justify-content: center;
