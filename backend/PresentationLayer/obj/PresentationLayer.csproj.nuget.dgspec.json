@@ -50,9 +50,17 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "AWSSDK.S3": {
+              "target": "Package",
+              "version": "[3.7.402.2, )"
+            },
             "BCrypt.Net-Next": {
               "target": "Package",
               "version": "[4.0.3, )"
+            },
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[2.2.0, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -256,6 +264,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "AWSSDK.Extensions.NETCore.Setup": {
+              "target": "Package",
+              "version": "[3.7.301, )"
+            },
+            "AWSSDK.S3": {
+              "target": "Package",
+              "version": "[3.7.402.2, )"
+            },
             "BCrypt.Net-Next": {
               "target": "Package",
               "version": "[4.0.3, )"
@@ -263,6 +279,10 @@
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
               "version": "[8.0.7, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -274,7 +294,7 @@
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.7, )"
+              "version": "[8.0.0, )"
             },
             "Microsoft.IdentityModel.Tokens": {
               "target": "Package",

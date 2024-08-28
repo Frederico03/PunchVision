@@ -17,5 +17,6 @@ namespace DataAcessLayer.Data
 
         //public DbSet<ExemploEntity> Exemplos { get; set; } Criar uma coluna no BD com base na entity
         public DbSet<UserEntity> tb_user { get; set; }
+        public DbSet<VideoEntity> tb_video{ get; set; }
     }
 }

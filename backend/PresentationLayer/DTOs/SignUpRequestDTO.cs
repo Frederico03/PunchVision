@@ -1,6 +1,9 @@
-﻿public class SignUpRequestDTO
+﻿namespace PresentationLayer.DTOs
 {
-    public string Name { get; set; }
-    public string Email { get; set; }
-    public string Password { get; set; }
+    public class SignUpRequestDTO
+    {
+        public string Name { get; set; }
+        public string Email { get; set; }
+        public string Password { get; set; }
+    }
 }

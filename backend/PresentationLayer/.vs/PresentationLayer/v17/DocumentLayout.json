@@ -3,56 +3,46 @@
   "WorkspaceRootPath": "C:\\Users\\Frederico Garc\u00EAz\\Documents\\UFG\\PunchVision\\web\\backend\\PresentationLayer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CD6F9372-83C9-4507-8678-070B9B6FFA02}|PresentationLayer.csproj|c:\\users\\frederico garc\u00EAz\\documents\\ufg\\punchvision\\web\\backend\\presentationlayer\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD6F9372-83C9-4507-8678-070B9B6FFA02}|PresentationLayer.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CD6F9372-83C9-4507-8678-070B9B6FFA02}|PresentationLayer.csproj|c:\\users\\frederico garc\u00EAz\\documents\\ufg\\punchvision\\web\\backend\\presentationlayer\\controllers\\filescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD6F9372-83C9-4507-8678-070B9B6FFA02}|PresentationLayer.csproj|solutionrelative:controllers\\filescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD6F9372-83C9-4507-8678-070B9B6FFA02}|PresentationLayer.csproj|c:\\users\\frederico garc\u00EAz\\documents\\ufg\\punchvision\\web\\backend\\presentationlayer\\dtos\\getfilesrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD6F9372-83C9-4507-8678-070B9B6FFA02}|PresentationLayer.csproj|solutionrelative:dtos\\getfilesrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD6F9372-83C9-4507-8678-070B9B6FFA02}|PresentationLayer.csproj|c:\\users\\frederico garc\u00EAz\\documents\\ufg\\punchvision\\web\\backend\\presentationlayer\\dtos\\filerequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD6F9372-83C9-4507-8678-070B9B6FFA02}|PresentationLayer.csproj|solutionrelative:dtos\\filerequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7129ABE3-16AF-4DC9-B7FA-B970AE4A1BAB}|..\\BusinessLogicLayer\\BusinessLogicLayer.csproj|c:\\users\\frederico garc\u00EAz\\documents\\ufg\\punchvision\\web\\backend\\businesslogiclayer\\services\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7129ABE3-16AF-4DC9-B7FA-B970AE4A1BAB}|..\\BusinessLogicLayer\\BusinessLogicLayer.csproj|c:\\users\\frederico garc\u00EAz\\documents\\ufg\\punchvision\\web\\backend\\businesslogiclayer\\interfaces\\ifileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7129ABE3-16AF-4DC9-B7FA-B970AE4A1BAB}|..\\BusinessLogicLayer\\BusinessLogicLayer.csproj|c:\\users\\frederico garc\u00EAz\\documents\\ufg\\punchvision\\web\\backend\\businesslogiclayer\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CD6F9372-83C9-4507-8678-070B9B6FFA02}|PresentationLayer.csproj|c:\\users\\frederico garc\u00EAz\\documents\\ufg\\punchvision\\web\\backend\\presentationlayer\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD6F9372-83C9-4507-8678-070B9B6FFA02}|PresentationLayer.csproj|solutionrelative:dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7129ABE3-16AF-4DC9-B7FA-B970AE4A1BAB}|..\\BusinessLogicLayer\\BusinessLogicLayer.csproj|c:\\users\\frederico garc\u00EAz\\documents\\ufg\\punchvision\\web\\backend\\businesslogiclayer\\models\\videomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7129ABE3-16AF-4DC9-B7FA-B970AE4A1BAB}|..\\BusinessLogicLayer\\BusinessLogicLayer.csproj|c:\\users\\frederico garc\u00EAz\\documents\\ufg\\punchvision\\web\\backend\\businesslogiclayer\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7129ABE3-16AF-4DC9-B7FA-B970AE4A1BAB}|..\\BusinessLogicLayer\\BusinessLogicLayer.csproj|c:\\users\\frederico garc\u00EAz\\documents\\ufg\\punchvision\\web\\backend\\businesslogiclayer\\interfaces\\ivideoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CD6F9372-83C9-4507-8678-070B9B6FFA02}|PresentationLayer.csproj|c:\\users\\frederico garc\u00EAz\\documents\\ufg\\punchvision\\web\\backend\\presentationlayer\\dtos\\signuprequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CD6F9372-83C9-4507-8678-070B9B6FFA02}|PresentationLayer.csproj|solutionrelative:dtos\\signuprequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7129ABE3-16AF-4DC9-B7FA-B970AE4A1BAB}|..\\BusinessLogicLayer\\BusinessLogicLayer.csproj|c:\\users\\frederico garc\u00EAz\\documents\\ufg\\punchvision\\web\\backend\\businesslogiclayer\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7129ABE3-16AF-4DC9-B7FA-B970AE4A1BAB}|..\\BusinessLogicLayer\\BusinessLogicLayer.csproj|c:\\users\\frederico garc\u00EAz\\documents\\ufg\\punchvision\\web\\backend\\businesslogiclayer\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7129ABE3-16AF-4DC9-B7FA-B970AE4A1BAB}|..\\BusinessLogicLayer\\BusinessLogicLayer.csproj|c:\\users\\frederico garc\u00EAz\\documents\\ufg\\punchvision\\web\\backend\\businesslogiclayer\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F1654BBA-30FB-4272-B279-8D95441F6D75}|..\\DataAcessLayer\\DataAcessLayer.csproj|c:\\users\\frederico garc\u00EAz\\documents\\ufg\\punchvision\\web\\backend\\dataacesslayer\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F1654BBA-30FB-4272-B279-8D95441F6D75}|..\\DataAcessLayer\\DataAcessLayer.csproj|c:\\users\\frederico garc\u00EAz\\documents\\ufg\\punchvision\\web\\backend\\dataacesslayer\\entities\\userentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F1654BBA-30FB-4272-B279-8D95441F6D75}|..\\DataAcessLayer\\DataAcessLayer.csproj|c:\\users\\frederico garc\u00EAz\\documents\\ufg\\punchvision\\web\\backend\\dataacesslayer\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F1654BBA-30FB-4272-B279-8D95441F6D75}|..\\DataAcessLayer\\DataAcessLayer.csproj|c:\\users\\frederico garc\u00EAz\\documents\\ufg\\punchvision\\web\\backend\\dataacesslayer\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD6F9372-83C9-4507-8678-070B9B6FFA02}|PresentationLayer.csproj|c:\\users\\frederico garc\u00EAz\\documents\\ufg\\punchvision\\web\\backend\\presentationlayer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD6F9372-83C9-4507-8678-070B9B6FFA02}|PresentationLayer.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD6F9372-83C9-4507-8678-070B9B6FFA02}|PresentationLayer.csproj|c:\\users\\frederico garc\u00EAz\\documents\\ufg\\punchvision\\web\\backend\\presentationlayer\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{CD6F9372-83C9-4507-8678-070B9B6FFA02}|PresentationLayer.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD6F9372-83C9-4507-8678-070B9B6FFA02}|PresentationLayer.csproj|c:\\users\\frederico garc\u00EAz\\documents\\ufg\\punchvision\\web\\backend\\presentationlayer\\presentationlayer.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{CD6F9372-83C9-4507-8678-070B9B6FFA02}|PresentationLayer.csproj|solutionrelative:presentationlayer.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CD6F9372-83C9-4507-8678-070B9B6FFA02}|PresentationLayer.csproj|c:\\users\\frederico garc\u00EAz\\documents\\ufg\\punchvision\\web\\backend\\presentationlayer\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{CD6F9372-83C9-4507-8678-070B9B6FFA02}|PresentationLayer.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD6F9372-83C9-4507-8678-070B9B6FFA02}|PresentationLayer.csproj|c:\\users\\frederico garc\u00EAz\\documents\\ufg\\punchvision\\web\\backend\\presentationlayer\\controllers\\videocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD6F9372-83C9-4507-8678-070B9B6FFA02}|PresentationLayer.csproj|solutionrelative:controllers\\videocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,8 +52,22 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 20,
+          "SelectedChildIndex": 17,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "VideoController.cs",
+              "DocumentMoniker": "C:\\Users\\Frederico Garc\u00EAz\\Documents\\UFG\\PunchVision\\web\\backend\\PresentationLayer\\Controllers\\VideoController.cs",
+              "RelativeDocumentMoniker": "Controllers\\VideoController.cs",
+              "ToolTip": "C:\\Users\\Frederico Garc\u00EAz\\Documents\\UFG\\PunchVision\\web\\backend\\PresentationLayer\\Controllers\\VideoController.cs",
+              "RelativeToolTip": "Controllers\\VideoController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T15:16:13.528Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
@@ -126,197 +130,145 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "SignUpRequestDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Frederico Garc\u00EAz\\Documents\\UFG\\PunchVision\\web\\backend\\PresentationLayer\\DTOs\\SignUpRequestDTO.cs",
-              "RelativeDocumentMoniker": "DTOs\\SignUpRequestDTO.cs",
-              "ToolTip": "C:\\Users\\Frederico Garc\u00EAz\\Documents\\UFG\\PunchVision\\web\\backend\\PresentationLayer\\DTOs\\SignUpRequestDTO.cs",
-              "RelativeToolTip": "DTOs\\SignUpRequestDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T20:02:26.44Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UserModel.cs",
-              "DocumentMoniker": "C:\\Users\\Frederico Garc\u00EAz\\Documents\\UFG\\PunchVision\\web\\backend\\BusinessLogicLayer\\Models\\UserModel.cs",
-              "RelativeDocumentMoniker": "..\\BusinessLogicLayer\\Models\\UserModel.cs",
-              "ToolTip": "C:\\Users\\Frederico Garc\u00EAz\\Documents\\UFG\\PunchVision\\web\\backend\\BusinessLogicLayer\\Models\\UserModel.cs",
-              "RelativeToolTip": "..\\BusinessLogicLayer\\Models\\UserModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T19:59:23.503Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AuthService.cs",
-              "DocumentMoniker": "C:\\Users\\Frederico Garc\u00EAz\\Documents\\UFG\\PunchVision\\web\\backend\\BusinessLogicLayer\\Services\\AuthService.cs",
-              "RelativeDocumentMoniker": "..\\BusinessLogicLayer\\Services\\AuthService.cs",
-              "ToolTip": "C:\\Users\\Frederico Garc\u00EAz\\Documents\\UFG\\PunchVision\\web\\backend\\BusinessLogicLayer\\Services\\AuthService.cs",
-              "RelativeToolTip": "..\\BusinessLogicLayer\\Services\\AuthService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T19:59:17.421Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IUserService.cs",
-              "DocumentMoniker": "C:\\Users\\Frederico Garc\u00EAz\\Documents\\UFG\\PunchVision\\web\\backend\\BusinessLogicLayer\\Interfaces\\IUserService.cs",
-              "RelativeDocumentMoniker": "..\\BusinessLogicLayer\\Interfaces\\IUserService.cs",
-              "ToolTip": "C:\\Users\\Frederico Garc\u00EAz\\Documents\\UFG\\PunchVision\\web\\backend\\BusinessLogicLayer\\Interfaces\\IUserService.cs",
-              "RelativeToolTip": "..\\BusinessLogicLayer\\Interfaces\\IUserService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T16:37:25.329Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "UserDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Frederico Garc\u00EAz\\Documents\\UFG\\PunchVision\\web\\backend\\PresentationLayer\\DTOs\\UserDTO.cs",
-              "RelativeDocumentMoniker": "DTOs\\UserDTO.cs",
-              "ToolTip": "C:\\Users\\Frederico Garc\u00EAz\\Documents\\UFG\\PunchVision\\web\\backend\\PresentationLayer\\DTOs\\UserDTO.cs",
-              "RelativeToolTip": "DTOs\\UserDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAeAAAA",
+              "Title": "FileRequestDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Frederico Garc\u00EAz\\Documents\\UFG\\PunchVision\\web\\backend\\PresentationLayer\\DTOs\\FileRequestDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\FileRequestDTO.cs",
+              "ToolTip": "C:\\Users\\Frederico Garc\u00EAz\\Documents\\UFG\\PunchVision\\web\\backend\\PresentationLayer\\DTOs\\FileRequestDTO.cs",
+              "RelativeToolTip": "DTOs\\FileRequestDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T19:58:23.282Z",
+              "WhenOpened": "2024-08-28T13:19:33.17Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\Frederico Garc\u00EAz\\Documents\\UFG\\PunchVision\\web\\backend\\PresentationLayer\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\Frederico Garc\u00EAz\\Documents\\UFG\\PunchVision\\web\\backend\\PresentationLayer\\Controllers\\UserController.cs",
-              "RelativeToolTip": "Controllers\\UserController.cs",
-              "ViewState": "AQIAACcAAAAAAAAAAAAYwCoAAAARAAAA",
+              "Title": "FilesController.cs",
+              "DocumentMoniker": "C:\\Users\\Frederico Garc\u00EAz\\Documents\\UFG\\PunchVision\\web\\backend\\PresentationLayer\\Controllers\\FilesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\FilesController.cs",
+              "ToolTip": "C:\\Users\\Frederico Garc\u00EAz\\Documents\\UFG\\PunchVision\\web\\backend\\PresentationLayer\\Controllers\\FilesController.cs",
+              "RelativeToolTip": "Controllers\\FilesController.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAQwDcAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T16:28:33.747Z",
+              "WhenOpened": "2024-08-28T13:19:05.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IFileService.cs",
+              "DocumentMoniker": "C:\\Users\\Frederico Garc\u00EAz\\Documents\\UFG\\PunchVision\\web\\backend\\BusinessLogicLayer\\Interfaces\\IFileService.cs",
+              "RelativeDocumentMoniker": "..\\BusinessLogicLayer\\Interfaces\\IFileService.cs",
+              "ToolTip": "C:\\Users\\Frederico Garc\u00EAz\\Documents\\UFG\\PunchVision\\web\\backend\\BusinessLogicLayer\\Interfaces\\IFileService.cs",
+              "RelativeToolTip": "..\\BusinessLogicLayer\\Interfaces\\IFileService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T13:16:24.951Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GetFilesRequestDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Frederico Garc\u00EAz\\Documents\\UFG\\PunchVision\\web\\backend\\PresentationLayer\\DTOs\\GetFilesRequestDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\GetFilesRequestDTO.cs",
+              "ToolTip": "C:\\Users\\Frederico Garc\u00EAz\\Documents\\UFG\\PunchVision\\web\\backend\\PresentationLayer\\DTOs\\GetFilesRequestDTO.cs",
+              "RelativeToolTip": "DTOs\\GetFilesRequestDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T04:03:52.142Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Frederico Garc\u00EAz\\Documents\\UFG\\PunchVision\\web\\backend\\DataAcessLayer\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "..\\DataAcessLayer\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\Frederico Garc\u00EAz\\Documents\\UFG\\PunchVision\\web\\backend\\DataAcessLayer\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "..\\DataAcessLayer\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T19:59:13.411Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "UserEntity.cs",
-              "DocumentMoniker": "C:\\Users\\Frederico Garc\u00EAz\\Documents\\UFG\\PunchVision\\web\\backend\\DataAcessLayer\\Entities\\UserEntity.cs",
-              "RelativeDocumentMoniker": "..\\DataAcessLayer\\Entities\\UserEntity.cs",
-              "ToolTip": "C:\\Users\\Frederico Garc\u00EAz\\Documents\\UFG\\PunchVision\\web\\backend\\DataAcessLayer\\Entities\\UserEntity.cs",
-              "RelativeToolTip": "..\\DataAcessLayer\\Entities\\UserEntity.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA4AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T19:59:09.792Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "IUserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Frederico Garc\u00EAz\\Documents\\UFG\\PunchVision\\web\\backend\\DataAcessLayer\\Interfaces\\IUserRepository.cs",
-              "RelativeDocumentMoniker": "..\\DataAcessLayer\\Interfaces\\IUserRepository.cs",
-              "ToolTip": "C:\\Users\\Frederico Garc\u00EAz\\Documents\\UFG\\PunchVision\\web\\backend\\DataAcessLayer\\Interfaces\\IUserRepository.cs",
-              "RelativeToolTip": "..\\DataAcessLayer\\Interfaces\\IUserRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T19:59:03.049Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Frederico Garc\u00EAz\\Documents\\UFG\\PunchVision\\web\\backend\\DataAcessLayer\\Repositories\\UserRepository.cs",
-              "RelativeDocumentMoniker": "..\\DataAcessLayer\\Repositories\\UserRepository.cs",
-              "ToolTip": "C:\\Users\\Frederico Garc\u00EAz\\Documents\\UFG\\PunchVision\\web\\backend\\DataAcessLayer\\Repositories\\UserRepository.cs",
-              "RelativeToolTip": "..\\DataAcessLayer\\Repositories\\UserRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T19:29:53.625Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "UserService.cs",
               "DocumentMoniker": "C:\\Users\\Frederico Garc\u00EAz\\Documents\\UFG\\PunchVision\\web\\backend\\BusinessLogicLayer\\Services\\UserService.cs",
               "RelativeDocumentMoniker": "..\\BusinessLogicLayer\\Services\\UserService.cs",
               "ToolTip": "C:\\Users\\Frederico Garc\u00EAz\\Documents\\UFG\\PunchVision\\web\\backend\\BusinessLogicLayer\\Services\\UserService.cs",
               "RelativeToolTip": "..\\BusinessLogicLayer\\Services\\UserService.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAAwB4AAAANAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T16:38:28.03Z",
+              "WhenOpened": "2024-08-28T03:54:48.65Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Frederico Garc\u00EAz\\Documents\\UFG\\PunchVision\\web\\backend\\PresentationLayer\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Frederico Garc\u00EAz\\Documents\\UFG\\PunchVision\\web\\backend\\PresentationLayer\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAADgAAAAAAAAAAIAwwG8AAAAYAAAA",
+              "DocumentIndex": 5,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\Frederico Garc\u00EAz\\Documents\\UFG\\PunchVision\\web\\backend\\BusinessLogicLayer\\Interfaces\\IUserService.cs",
+              "RelativeDocumentMoniker": "..\\BusinessLogicLayer\\Interfaces\\IUserService.cs",
+              "ToolTip": "C:\\Users\\Frederico Garc\u00EAz\\Documents\\UFG\\PunchVision\\web\\backend\\BusinessLogicLayer\\Interfaces\\IUserService.cs",
+              "RelativeToolTip": "..\\BusinessLogicLayer\\Interfaces\\IUserService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T16:15:43.519Z",
+              "WhenOpened": "2024-08-28T03:31:31.698Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 3,
+              "Title": "FileService.cs",
+              "DocumentMoniker": "C:\\Users\\Frederico Garc\u00EAz\\Documents\\UFG\\PunchVision\\web\\backend\\BusinessLogicLayer\\Services\\FileService.cs",
+              "RelativeDocumentMoniker": "..\\BusinessLogicLayer\\Services\\FileService.cs",
+              "ToolTip": "C:\\Users\\Frederico Garc\u00EAz\\Documents\\UFG\\PunchVision\\web\\backend\\BusinessLogicLayer\\Services\\FileService.cs",
+              "RelativeToolTip": "..\\BusinessLogicLayer\\Services\\FileService.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAYwDMAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T03:03:23.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IVideoService.cs",
+              "DocumentMoniker": "C:\\Users\\Frederico Garc\u00EAz\\Documents\\UFG\\PunchVision\\web\\backend\\BusinessLogicLayer\\Interfaces\\IVideoService.cs",
+              "RelativeDocumentMoniker": "..\\BusinessLogicLayer\\Interfaces\\IVideoService.cs",
+              "ToolTip": "C:\\Users\\Frederico Garc\u00EAz\\Documents\\UFG\\PunchVision\\web\\backend\\BusinessLogicLayer\\Interfaces\\IVideoService.cs",
+              "RelativeToolTip": "..\\BusinessLogicLayer\\Interfaces\\IVideoService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T03:08:42.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "VideoModel.cs",
+              "DocumentMoniker": "C:\\Users\\Frederico Garc\u00EAz\\Documents\\UFG\\PunchVision\\web\\backend\\BusinessLogicLayer\\Models\\VideoModel.cs",
+              "RelativeDocumentMoniker": "..\\BusinessLogicLayer\\Models\\VideoModel.cs",
+              "ToolTip": "C:\\Users\\Frederico Garc\u00EAz\\Documents\\UFG\\PunchVision\\web\\backend\\BusinessLogicLayer\\Models\\VideoModel.cs",
+              "RelativeToolTip": "..\\BusinessLogicLayer\\Models\\VideoModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T03:09:05.966Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SignUpRequestDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Frederico Garc\u00EAz\\Documents\\UFG\\PunchVision\\web\\backend\\PresentationLayer\\DTOs\\SignUpRequestDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\SignUpRequestDTO.cs",
+              "ToolTip": "C:\\Users\\Frederico Garc\u00EAz\\Documents\\UFG\\PunchVision\\web\\backend\\PresentationLayer\\DTOs\\SignUpRequestDTO.cs",
+              "RelativeToolTip": "DTOs\\SignUpRequestDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T03:42:39.163Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Frederico Garc\u00EAz\\Documents\\UFG\\PunchVision\\web\\backend\\PresentationLayer\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
               "ToolTip": "C:\\Users\\Frederico Garc\u00EAz\\Documents\\UFG\\PunchVision\\web\\backend\\PresentationLayer\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-06T16:33:48.692Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "PresentationLayer.http",
-              "DocumentMoniker": "C:\\Users\\Frederico Garc\u00EAz\\Documents\\UFG\\PunchVision\\web\\backend\\PresentationLayer\\PresentationLayer.http",
-              "RelativeDocumentMoniker": "PresentationLayer.http",
-              "ToolTip": "C:\\Users\\Frederico Garc\u00EAz\\Documents\\UFG\\PunchVision\\web\\backend\\PresentationLayer\\PresentationLayer.http",
-              "RelativeToolTip": "PresentationLayer.http",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2024-08-06T16:16:04.598Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\Frederico Garc\u00EAz\\Documents\\UFG\\PunchVision\\web\\backend\\PresentationLayer\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\Frederico Garc\u00EAz\\Documents\\UFG\\PunchVision\\web\\backend\\PresentationLayer\\Properties\\launchSettings.json",
-              "RelativeToolTip": "Properties\\launchSettings.json",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAcAAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-06T16:34:08.127Z",
+              "WhenOpened": "2024-08-28T03:27:37.594Z",
               "EditorCaption": ""
             }
           ]

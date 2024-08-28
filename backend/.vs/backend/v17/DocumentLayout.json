@@ -3,28 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Frederico Garc\u00EAz\\Documents\\UFG\\PunchVision\\web\\backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Frederico Garc\u00EAz\\Documents\\UFG\\PunchVision\\web\\backend\\PresentationLayer\\PresentationLayer.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PresentationLayer\\PresentationLayer.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Frederico Garc\u00EAz\\Documents\\UFG\\PunchVision\\web\\backend\\PresentationLayer\\PresentationLayer.csproj.user||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PresentationLayer\\PresentationLayer.csproj.user||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Frederico Garc\u00EAz\\Documents\\UFG\\PunchVision\\web\\backend\\PresentationLayer\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PresentationLayer\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Frederico Garc\u00EAz\\Documents\\UFG\\PunchVision\\web\\backend\\PresentationLayer\\appsettings.Development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PresentationLayer\\appsettings.Development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Frederico Garc\u00EAz\\Documents\\UFG\\PunchVision\\web\\backend\\PresentationLayer\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PresentationLayer\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Frederico Garc\u00EAz\\Documents\\UFG\\PunchVision\\web\\backend\\PresentationLayer\\PresentationLayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PresentationLayer\\PresentationLayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Frederico Garc\u00EAz\\Documents\\UFG\\PunchVision\\web\\backend\\PresentationLayer\\Controllers\\VideoController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PresentationLayer\\Controllers\\VideoController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Frederico Garc\u00EAz\\Documents\\UFG\\PunchVision\\web\\backend\\PresentationLayer\\DTOs\\UploadVideoDTO.cs||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PresentationLayer\\DTOs\\UploadVideoDTO.cs||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Frederico Garc\u00EAz\\Documents\\UFG\\PunchVision\\web\\backend\\PresentationLayer\\DTOs\\SignInRequestDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PresentationLayer\\DTOs\\SignInRequestDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Frederico Garc\u00EAz\\Documents\\UFG\\PunchVision\\web\\backend\\PresentationLayer\\Controllers\\UserController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PresentationLayer\\Controllers\\UserController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -99,70 +95,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PresentationLayer.http",
-              "DocumentMoniker": "C:\\Users\\Frederico Garc\u00EAz\\Documents\\UFG\\PunchVision\\web\\backend\\PresentationLayer\\PresentationLayer.http",
-              "RelativeDocumentMoniker": "PresentationLayer\\PresentationLayer.http",
-              "ToolTip": "C:\\Users\\Frederico Garc\u00EAz\\Documents\\UFG\\PunchVision\\web\\backend\\PresentationLayer\\PresentationLayer.http",
-              "RelativeToolTip": "PresentationLayer\\PresentationLayer.http",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2024-08-06T16:44:46.455Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Frederico Garc\u00EAz\\Documents\\UFG\\PunchVision\\web\\backend\\PresentationLayer\\Program.cs",
-              "RelativeDocumentMoniker": "PresentationLayer\\Program.cs",
-              "ToolTip": "C:\\Users\\Frederico Garc\u00EAz\\Documents\\UFG\\PunchVision\\web\\backend\\PresentationLayer\\Program.cs",
-              "RelativeToolTip": "PresentationLayer\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGsAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T16:44:09.707Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\Frederico Garc\u00EAz\\Documents\\UFG\\PunchVision\\web\\backend\\PresentationLayer\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "PresentationLayer\\appsettings.Development.json",
-              "ToolTip": "C:\\Users\\Frederico Garc\u00EAz\\Documents\\UFG\\PunchVision\\web\\backend\\PresentationLayer\\appsettings.Development.json",
-              "RelativeToolTip": "PresentationLayer\\appsettings.Development.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-06T16:15:24.997Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Frederico Garc\u00EAz\\Documents\\UFG\\PunchVision\\web\\backend\\PresentationLayer\\appsettings.json",
-              "RelativeDocumentMoniker": "PresentationLayer\\appsettings.json",
-              "ToolTip": "C:\\Users\\Frederico Garc\u00EAz\\Documents\\UFG\\PunchVision\\web\\backend\\PresentationLayer\\appsettings.json",
-              "RelativeToolTip": "PresentationLayer\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-06T16:15:23.449Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PresentationLayer.csproj.user",
-              "DocumentMoniker": "C:\\Users\\Frederico Garc\u00EAz\\Documents\\UFG\\PunchVision\\web\\backend\\PresentationLayer\\PresentationLayer.csproj.user",
-              "RelativeDocumentMoniker": "PresentationLayer\\PresentationLayer.csproj.user",
-              "ToolTip": "C:\\Users\\Frederico Garc\u00EAz\\Documents\\UFG\\PunchVision\\web\\backend\\PresentationLayer\\PresentationLayer.csproj.user",
-              "RelativeToolTip": "PresentationLayer\\PresentationLayer.csproj.user",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003464|",
-              "WhenOpened": "2024-08-06T16:15:18.593Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "PresentationLayer.csproj",
               "DocumentMoniker": "C:\\Users\\Frederico Garc\u00EAz\\Documents\\UFG\\PunchVision\\web\\backend\\PresentationLayer\\PresentationLayer.csproj",
               "RelativeDocumentMoniker": "PresentationLayer\\PresentationLayer.csproj",
@@ -170,7 +102,57 @@
               "RelativeToolTip": "PresentationLayer\\PresentationLayer.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-08-06T16:15:14.161Z"
+              "WhenOpened": "2024-08-27T20:41:17.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "VideoController.cs",
+              "DocumentMoniker": "C:\\Users\\Frederico Garc\u00EAz\\Documents\\UFG\\PunchVision\\web\\backend\\PresentationLayer\\Controllers\\VideoController.cs",
+              "RelativeDocumentMoniker": "PresentationLayer\\Controllers\\VideoController.cs",
+              "ToolTip": "C:\\Users\\Frederico Garc\u00EAz\\Documents\\UFG\\PunchVision\\web\\backend\\PresentationLayer\\Controllers\\VideoController.cs",
+              "RelativeToolTip": "PresentationLayer\\Controllers\\VideoController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T15:02:12.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SignInRequestDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Frederico Garc\u00EAz\\Documents\\UFG\\PunchVision\\web\\backend\\PresentationLayer\\DTOs\\SignInRequestDTO.cs",
+              "RelativeDocumentMoniker": "PresentationLayer\\DTOs\\SignInRequestDTO.cs",
+              "ToolTip": "C:\\Users\\Frederico Garc\u00EAz\\Documents\\UFG\\PunchVision\\web\\backend\\PresentationLayer\\DTOs\\SignInRequestDTO.cs",
+              "RelativeToolTip": "PresentationLayer\\DTOs\\SignInRequestDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T14:58:05.212Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UploadVideoDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Frederico Garc\u00EAz\\Documents\\UFG\\PunchVision\\web\\backend\\PresentationLayer\\DTOs\\UploadVideoDTO.cs",
+              "RelativeDocumentMoniker": "PresentationLayer\\DTOs\\UploadVideoDTO.cs",
+              "ToolTip": "C:\\Users\\Frederico Garc\u00EAz\\Documents\\UFG\\PunchVision\\web\\backend\\PresentationLayer\\DTOs\\UploadVideoDTO.cs",
+              "RelativeToolTip": "PresentationLayer\\DTOs\\UploadVideoDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T14:57:59.419Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\Frederico Garc\u00EAz\\Documents\\UFG\\PunchVision\\web\\backend\\PresentationLayer\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "PresentationLayer\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\Frederico Garc\u00EAz\\Documents\\UFG\\PunchVision\\web\\backend\\PresentationLayer\\Controllers\\UserController.cs",
+              "RelativeToolTip": "PresentationLayer\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADYAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T14:50:38.444Z"
             }
           ]
         }

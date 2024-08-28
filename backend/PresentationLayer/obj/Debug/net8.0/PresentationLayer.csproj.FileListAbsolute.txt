@@ -363,3 +363,6 @@ C:\Users\Frederico Garcêz\Documents\UFG\PunchVision\web\backend\PresentationLay
 C:\Users\Frederico Garcêz\Documents\UFG\PunchVision\web\backend\PresentationLayer\obj\Debug\net8.0\PresentationLayer.pdb
 C:\Users\Frederico Garcêz\Documents\UFG\PunchVision\web\backend\PresentationLayer\obj\Debug\net8.0\PresentationLayer.genruntimeconfig.cache
 C:\Users\Frederico Garcêz\Documents\UFG\PunchVision\web\backend\PresentationLayer\obj\Debug\net8.0\ref\PresentationLayer.dll
+C:\Users\Frederico Garcêz\Documents\UFG\PunchVision\web\backend\PresentationLayer\bin\Debug\net8.0\AWSSDK.Core.dll
+C:\Users\Frederico Garcêz\Documents\UFG\PunchVision\web\backend\PresentationLayer\bin\Debug\net8.0\AWSSDK.Extensions.NETCore.Setup.dll
+C:\Users\Frederico Garcêz\Documents\UFG\PunchVision\web\backend\PresentationLayer\bin\Debug\net8.0\AWSSDK.S3.dll

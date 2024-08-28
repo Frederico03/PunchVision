@@ -52,6 +52,53 @@ namespace PresentationLayer.Migrations
 
                     b.ToTable("tb_user");
                 });
+
+            modelBuilder.Entity("DataAcessLayer.Entities.VideoEntity", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime?>("CreatedAt")
+                        .HasColumnType("datetime(6)");
+
+                    b.Property<string>("FileName")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("Size")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("URL")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<DateTime?>("UpdatedAt")
+                        .HasColumnType("datetime(6)");
+
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("tb_video");
+                });
+
+            modelBuilder.Entity("DataAcessLayer.Entities.VideoEntity", b =>
+                {
+                    b.HasOne("DataAcessLayer.Entities.UserEntity", "User")
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("User");
+                });
 #pragma warning restore 612, 618
         }
     }

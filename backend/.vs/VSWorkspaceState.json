@@ -1,9 +1,17 @@
 {
   "ExpandedNodes": [
     "",
+    "\\BusinessLogicLayer",
+    "\\BusinessLogicLayer\\Interfaces",
+    "\\DataAcessLayer",
+    "\\DataAcessLayer\\Data",
+    "\\DataAcessLayer\\Entities",
+    "\\DataAcessLayer\\Interfaces",
+    "\\DataAcessLayer\\Repositories",
     "\\PresentationLayer",
-    "\\PresentationLayer\\Controllers"
+    "\\PresentationLayer\\Controllers",
+    "\\PresentationLayer\\DTOs"
   ],
-  "SelectedNode": "\\PresentationLayer\\Controllers\\UserController.cs",
+  "SelectedNode": "\\PresentationLayer\\Controllers\\VideoController.cs",
   "PreviewInSolutionExplorer": false
 }

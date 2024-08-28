@@ -17,11 +17,11 @@ namespace PresentationLayer.Controllers
 
 
         [HttpPost("SignUp")]
-        public async Task<ActionResult> SignUpAsync(SignUpRequestDTO signRequest)
-        {
+        public async Task<ActionResult> SignUpAsync(SignUpRequestDTO signUpRequest)
+        { 
             try
             {
-                await _userService.SignUpAsync(signRequest.Name, signRequest.Email, signRequest.Password);
+                await _userService.SignUpAsync(signUpRequest.Name, signUpRequest.Email, signUpRequest.Password);
 
                 return Ok(
                     new{
@@ -41,18 +41,20 @@ namespace PresentationLayer.Controllers
         }
 
         [HttpPost("SignIn")]
-        public async Task<ActionResult> SignInAsync(UserDTO userRequest)
+        public async Task<ActionResult> SignInAsync(SignInRequestDTO signInRequest)
         {
             try
             {
-                var token = await _userService.SignInAsync(userRequest.Email, userRequest.Password);
+                var result = await _userService.SignInAsync(signInRequest.Email, signInRequest.Password);
 
-                return Ok(new
-                {
-                    Status = true,
-                    Message = "Sign up successful",
-                    Token = token
-                });
+                return Ok(
+                    new{
+                        Status = true,
+                        Message = "Sign up successful",
+                        Token = result.Token,
+                        UserId = result.UserId
+                    }
+                );
             }
             catch (Exception ex)
             {

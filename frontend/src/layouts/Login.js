@@ -30,10 +30,12 @@ function Login() {
         email,
         password
       });
+      console.log(data)
       if (data.status === false)
         alert(data.message)
       if (data.status === true) {
-        localStorage.setItem('punch-vison-user', JSON.stringify(data.user))
+        console.log(data)
+        localStorage.setItem('punch-vison-user', JSON.stringify(data.userId))
         localStorage.setItem('punch-vison-token', JSON.stringify(data.token))
         navigate("/admin/mainView")
       }

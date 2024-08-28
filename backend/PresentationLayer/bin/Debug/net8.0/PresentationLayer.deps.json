@@ -8,11 +8,14 @@
     ".NETCoreApp,Version=v8.0": {
       "PresentationLayer/1.0.0": {
         "dependencies": {
+          "AWSSDK.Extensions.NETCore.Setup": "3.7.301",
+          "AWSSDK.S3": "3.7.402.2",
           "BCrypt.Net-Next": "4.0.3",
           "BusinessLogicLayer": "1.0.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.7",
+          "Microsoft.AspNetCore.Http.Abstractions": "2.2.0",
           "Microsoft.EntityFrameworkCore.Design": "8.0.7",
-          "Microsoft.EntityFrameworkCore.Tools": "8.0.7",
+          "Microsoft.EntityFrameworkCore.Tools": "8.0.0",
           "Microsoft.IdentityModel.Tokens": "8.0.1",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.4",
           "Pomelo.EntityFrameworkCore.MySql": "8.0.2",
@@ -22,6 +25,39 @@
         },
         "runtime": {
           "PresentationLayer.dll": {}
+        }
+      },
+      "AWSSDK.Core/3.7.400.11": {
+        "runtime": {
+          "lib/net8.0/AWSSDK.Core.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.400.11"
+          }
+        }
+      },
+      "AWSSDK.Extensions.NETCore.Setup/3.7.301": {
+        "dependencies": {
+          "AWSSDK.Core": "3.7.400.11",
+          "Microsoft.Extensions.Configuration.Abstractions": "8.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.0"
+        },
+        "runtime": {
+          "lib/net8.0/AWSSDK.Extensions.NETCore.Setup.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.7.0"
+          }
+        }
+      },
+      "AWSSDK.S3/3.7.402.2": {
+        "dependencies": {
+          "AWSSDK.Core": "3.7.400.11"
+        },
+        "runtime": {
+          "lib/net8.0/AWSSDK.S3.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.402.2"
+          }
         }
       },
       "BCrypt.Net-Next/4.0.3": {
@@ -49,6 +85,17 @@
             "assemblyVersion": "8.0.7.0",
             "fileVersion": "8.0.724.31402"
           }
+        }
+      },
+      "Microsoft.AspNetCore.Http.Abstractions/2.2.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Http.Features": "2.2.0",
+          "System.Text.Encodings.Web": "8.0.0"
+        }
+      },
+      "Microsoft.AspNetCore.Http.Features/2.2.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "8.0.0"
         }
       },
       "Microsoft.Bcl.AsyncInterfaces/6.0.0": {
@@ -342,7 +389,7 @@
           }
         }
       },
-      "Microsoft.EntityFrameworkCore.Tools/8.0.7": {
+      "Microsoft.EntityFrameworkCore.Tools/8.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Design": "8.0.7"
         }
@@ -1375,8 +1422,10 @@
       },
       "BusinessLogicLayer/1.0.0": {
         "dependencies": {
+          "AWSSDK.S3": "3.7.402.2",
           "BCrypt.Net-Next": "4.0.3",
           "DataAcessLayer": "1.0.0",
+          "Microsoft.AspNetCore.Http.Features": "2.2.0",
           "Microsoft.IdentityModel.Tokens": "8.0.1",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.4",
           "Pomelo.EntityFrameworkCore.MySql": "8.0.2",
@@ -1409,6 +1458,27 @@
       "serviceable": false,
       "sha512": ""
     },
+    "AWSSDK.Core/3.7.400.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bRntRauoB4FwswqaeEiUAcwjZd0AOeHjZCoFPvOMNaT9tJVWRvF0SHTPE1A5zR2MLeFHCZjbLJxJYOIgVJiCXA==",
+      "path": "awssdk.core/3.7.400.11",
+      "hashPath": "awssdk.core.3.7.400.11.nupkg.sha512"
+    },
+    "AWSSDK.Extensions.NETCore.Setup/3.7.301": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hXejqa+G72kVCSmpKlNVWDEqa8KVWOFL/asgoE2mairQOnmTCv6vMxaXjJ0nQaad5/21zTdKDIfDiki5YTne1Q==",
+      "path": "awssdk.extensions.netcore.setup/3.7.301",
+      "hashPath": "awssdk.extensions.netcore.setup.3.7.301.nupkg.sha512"
+    },
+    "AWSSDK.S3/3.7.402.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KCrbnIvPNqSCcEyvcVwXUJuVO6mCQf67FykLUA6qrf8rlYQsDk1oj/QhZW5PHTqTVFvOuHlT2bPkqLGQt/Ag7w==",
+      "path": "awssdk.s3/3.7.402.2",
+      "hashPath": "awssdk.s3.3.7.402.2.nupkg.sha512"
+    },
     "BCrypt.Net-Next/4.0.3": {
       "type": "package",
       "serviceable": true,
@@ -1429,6 +1499,20 @@
       "sha512": "sha512-HXcmJizLBx9mP2XtHZZgvi3GZCrGg98PMQ9AozrF1/RqSffp9CqCiTdrz7TaFLqOUph/S4hqx/IJD18Al+zE+w==",
       "path": "microsoft.aspnetcore.authentication.jwtbearer/8.0.7",
       "hashPath": "microsoft.aspnetcore.authentication.jwtbearer.8.0.7.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Http.Abstractions/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Nxs7Z1q3f1STfLYKJSVXCs1iBl+Ya6E8o4Oy1bCxJ/rNI44E/0f6tbsrVqAWfB7jlnJfyaAtIalBVxPKUPQb4Q==",
+      "path": "microsoft.aspnetcore.http.abstractions/2.2.0",
+      "hashPath": "microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Http.Features/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ziFz5zH8f33En4dX81LW84I6XrYXKf9jg6aM39cM+LffN9KJahViKZ61dGMSO2gd3e+qe5yBRwsesvyqlZaSMg==",
+      "path": "microsoft.aspnetcore.http.features/2.2.0",
+      "hashPath": "microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512"
     },
     "Microsoft.Bcl.AsyncInterfaces/6.0.0": {
       "type": "package",
@@ -1514,12 +1598,12 @@
       "path": "microsoft.entityframeworkcore.relational.design/1.1.1",
       "hashPath": "microsoft.entityframeworkcore.relational.design.1.1.1.nupkg.sha512"
     },
-    "Microsoft.EntityFrameworkCore.Tools/8.0.7": {
+    "Microsoft.EntityFrameworkCore.Tools/8.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-i85BNsjYGjAkvvga9uALKREHq/hsp/y7QOGuliczDSnUN6YIQXgx989XBg8iSkb5tZJqU/NLev1mU4XmirAvOw==",
-      "path": "microsoft.entityframeworkcore.tools/8.0.7",
-      "hashPath": "microsoft.entityframeworkcore.tools.8.0.7.nupkg.sha512"
+      "sha512": "sha512-zRdaXiiB1gEA0b+AJTd2+drh78gkEA4HyZ1vqNZrKq4xwW8WwavSiQsoeb1UsIMZkocLMBbhQYWClkZzuTKEgQ==",
+      "path": "microsoft.entityframeworkcore.tools/8.0.0",
+      "hashPath": "microsoft.entityframeworkcore.tools.8.0.0.nupkg.sha512"
     },
     "Microsoft.Extensions.ApiDescription.Server/6.0.5": {
       "type": "package",

@@ -45,7 +45,7 @@ namespace BusinessLogicLayer.Services
 
         }
 
-        public async Task<string> SignInAsync(string email, string password)
+        public async Task<(string Token, int UserId)> SignInAsync(string email, string password)
         {
 
             var userEntity = await _userRepository.GetUserByEmailAsync(email);
@@ -64,7 +64,8 @@ namespace BusinessLogicLayer.Services
                     throw new Exception("Credenciais inválidas!");
                 }
 
-                return _authService.GenerateJWTToken(user);
+                var token = _authService.GenerateJWTToken(user);
+                return (token, user.Id);
             }
 
             throw new Exception("Usuário não cadastrado!");
