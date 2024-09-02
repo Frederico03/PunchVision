@@ -7267,27 +7267,30 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Frederico Garcêz\\.nuget\\packages\\": {}
+    "C:\\Users\\leona\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Frederico Garcêz\\Documents\\UFG\\PunchVision\\web\\backend\\DataAcessLayer\\DataAcessLayer.csproj",
+      "projectUniqueName": "C:\\Users\\leona\\Desktop\\PunchVisionMain\\PunchVision\\backend\\DataAcessLayer\\DataAcessLayer.csproj",
       "projectName": "DataAcessLayer",
-      "projectPath": "C:\\Users\\Frederico Garcêz\\Documents\\UFG\\PunchVision\\web\\backend\\DataAcessLayer\\DataAcessLayer.csproj",
-      "packagesPath": "C:\\Users\\Frederico Garcêz\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Frederico Garcêz\\Documents\\UFG\\PunchVision\\web\\backend\\DataAcessLayer\\obj\\",
+      "projectPath": "C:\\Users\\leona\\Desktop\\PunchVisionMain\\PunchVision\\backend\\DataAcessLayer\\DataAcessLayer.csproj",
+      "packagesPath": "C:\\Users\\leona\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\leona\\Desktop\\PunchVisionMain\\PunchVision\\backend\\DataAcessLayer\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Frederico Garcêz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\leona\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -7368,7 +7371,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\8.0.304/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

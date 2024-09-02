@@ -8,11 +8,21 @@ using System.Threading.Tasks;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using BusinessLogicLayer.Interfaces;
+using System.Net.Http;
+using Microsoft.AspNetCore.Http;
+using Amazon.Runtime.Internal;
 
 namespace BusinessLogicLayer.Services
 {
     public class AuthService : IAuthService
     {
+        private readonly IHttpContextAccessor _httpContextAccessor;
+
+        public AuthService(IHttpContextAccessor httpContextAccessor)
+        {
+            _httpContextAccessor = httpContextAccessor;
+        }
+
         public string GenerateJWTToken(UserModel user)
         {
             SecurityTokenDescriptor tokenDescription = new SecurityTokenDescriptor
@@ -33,6 +43,35 @@ namespace BusinessLogicLayer.Services
             JwtSecurityTokenHandler tokenHandler = new JwtSecurityTokenHandler();
             SecurityToken securityToken = tokenHandler.CreateToken(tokenDescription);
             return tokenHandler.WriteToken(securityToken);
+        }
+
+        public int GetUserInfoFromToken()
+        {
+            var httpContext = _httpContextAccessor.HttpContext;
+
+            var authorizationHeader = httpContext.Request.Headers["Authorization"].ToString();
+            if (string.IsNullOrEmpty(authorizationHeader))
+            {
+                throw new UnauthorizedAccessException("Authorization header is missing.");
+            }
+            var token = authorizationHeader.Replace("Bearer ", string.Empty);
+
+            var handler = new JwtSecurityTokenHandler();
+            var jwtToken = handler.ReadToken(token) as JwtSecurityToken;
+            if (jwtToken == null)
+            {
+                throw new UnauthorizedAccessException("Invalid token.");
+            }
+
+            var userIdClaim = jwtToken.Claims.FirstOrDefault(c => c.Type == "userId");
+            if (userIdClaim == null)
+            {
+                throw new UnauthorizedAccessException("User ID claim is missing.");
+            }
+
+            var userId = Int32.Parse(userIdClaim.Value);
+
+            return userId;
         }
     }
 }

@@ -9,7 +9,6 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using System.Text;
-using Microsoft.AspNetCore.Http;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -25,6 +24,7 @@ builder.Services.AddControllers();
 builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<IAuthService, AuthService>();
 builder.Services.AddScoped<IFileService, FileService>();
+builder.Services.AddScoped<IVideoService, VideoService>();
 
 //CONFIGURE REPOSITORYS
 builder.Services.AddScoped<IUserRepository, UserRepository>();
@@ -64,7 +64,7 @@ builder.Services.AddSwaggerGen(c =>
 {
     c.SwaggerDoc("v1", new OpenApiInfo { Title = "Punch Vision Api", Version = "v1" });
 
-    // Adicionar suporte � autentica��o JWT
+    // Adicionar suporte à autenticação JWT
     c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
     {
         Name = "Authorization",
@@ -91,7 +91,7 @@ builder.Services.AddSwaggerGen(c =>
         });
 });
 
-// Obtendo a string de conex�o do arquivo de configura��o
+// Obtendo a string de conexão do arquivo de configuração
 var connectionString = builder.Configuration.GetConnectionString("AppDbConnectionString");
 
 // Configurando o DbContext para usar MySQL
@@ -102,6 +102,7 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 
 builder.Services.AddDefaultAWSOptions(builder.Configuration.GetAWSOptions());
 builder.Services.AddAWSService<IAmazonS3>();
+builder.Services.AddHttpContextAccessor();
 
 var app = builder.Build();
 
@@ -115,8 +116,6 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
-
-app.UseCors("AllowAll");
 
 app.MapControllers();
 

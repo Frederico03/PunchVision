@@ -10,5 +10,7 @@ namespace BusinessLogicLayer.Interfaces
     public interface IAuthService
     {
         string GenerateJWTToken(UserModel user);
+
+        int GetUserInfoFromToken();
     }
 }
